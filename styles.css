@@ -1,0 +1,25 @@
+body {
+  background: radial-gradient(gold,goldenrod);
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+}
+img {
+  padding: 10px;
+  max-width: 100px;
+  max-height: 100px
+}
+img:hover {
+  transform: scale(1.4);
+  transition: all 1s;
+
+}
+.container {
+  position: absolute;
+
+  transform:
+  top:50%;
+left:35%;
+  translate(-50%, -50%);
+}
